@@ -14,7 +14,7 @@ export class ViewCompClassVm {
     }
 
     changeName() {
-        store.dispatch(AuthPageActionVM({...this.state(), name: 'хуй'}))
+        store.dispatch(AuthPageActionVM({...this.state(), name: 'new_name'}))
     }
 
     changeCount() {
