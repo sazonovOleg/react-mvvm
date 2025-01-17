@@ -1,11 +1,11 @@
-const authApi = {
+const exampleApi = {
     getCartFromApi() {
         return console.log(`devv data`)
     }
 }
 
-export const authService = {
+export const exampleService = {
     getCart() {
-        authApi.getCartFromApi()
+        exampleApi.getCartFromApi()
     }
 }

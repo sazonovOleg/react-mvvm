@@ -1,8 +1,8 @@
 import {combineReducers, createStore} from "redux";
-import {authPageVmReducer} from "../../../ui/pages/auth/auth_vm";
+import {exampleReducer} from "../../../ui/pages/example/example_vm";
 
 export const rootReducer = combineReducers({
-    authPageVmReducer: authPageVmReducer,
+    exampleReducer: exampleReducer,
 })
 
 function saveToLocalStorage(state: any) {
